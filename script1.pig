@@ -1,4 +1,4 @@
-data_raw = LOAD '/user/data/data2.csv' USING PigStorage(',') AS (
+data_raw = LOAD '/user/data/prueba.csv' USING PigStorage(',') AS (
     branch_addr:chararray, 
     branch_type:chararray, 
     taken:int, 
